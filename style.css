@@ -6,7 +6,7 @@
 
 .container {
 	width: 960px;
-	height: 1320px;
+	height: 1280px;
   /*height: 10%;*/
 	background-color: #f8f8f8;
 	margin: -8px 0 0 185px;
@@ -19,7 +19,7 @@
     display: inline-block;
     position: relative;
     padding: 14px 18px;
-    color: white;
+    color: black;
     box-sizing: border-box;
     max-width: 500px;
     min-width: 80px;
@@ -72,14 +72,15 @@
 .flex-contect  {
   display: flex;
   flex-wrap: nowrap;
-  margin-left: 200px;
+  margin-left: 220px;
+  margin-bottom: 5px;
 }
 .flex-contect  h4{
-  margin: 25px 0 0 0;
+  margin: 15px 0 0 0;
 }
 .flex-contect img {
-  height: 48px;
-  width: 48px;
+  height: 32px;
+  width: 32px;
   margin: 6px 15px 0px 80px;
 }
 /* ---- End Contect CSS ---- */
@@ -118,99 +119,69 @@
 .flex-item p{
 	margin-top: -135px;
 }
-/* ---- End Skill CSS ---- */
 
-/* ---- Start Timeline CSS ---- */
+/*---- Start Educ+Expe CSS ----*/
+/*-- Start Timeline CSS --*/
 ol {
-	position: relative;
-	display: block;
-	margin: 60px;
-	height: 4px;
-	background: #31708F;
+  position: relative;
+  display: block;
+  margin: 80px;
+  height: 4px;
+  background: #31708F;
 }
 ol::before,
 ol::after {
-	content: "";
-	position: absolute;
-	top: -8px;
-	display: block;
-	width: 0;
-	height: 0;
+  content: "";
+  position: absolute;
+  top: -8px;
+  display: block;
+  width: 0;
+  height: 0;
   border-radius: 10px;
-	border: 10px solid #31708F;
+  border: 10px solid #31708F;
 }
 ol::before {
-	left: -5px;
+  left: -5px;
 }
 ol::after {
-	right: -10px;
-	border: 10px solid transparent;
-	border-right: 0;
-	border-left: 20px solid #31708F;
+  right: -10px;
+  border: 10px solid transparent;
+  border-right: 0;
+  border-left: 20px solid #31708F;
   border-radius: 3px;
 }
 
-/* ---- Timeline Elements ---- */
-ol {
-	position: relative;
-	display: block;
-	margin: 60px;
-	height: 4px;
-	background: #31708F;
-}
-ol::before,
-ol::after {
-	content: "";
-	position: absolute;
-	top: -8px;
-	display: block;
-	width: 0;
-	height: 0;
-  border-radius: 10px;
-	border: 10px solid #31708F;
-}
-ol::before {
-	left: -5px;
-}
-ol::after {
-	right: -10px;
-	border: 10px solid transparent;
-	border-right: 0;
-	border-left: 20px solid #31708F;
-  border-radius: 3px;
-}
-
-/* ---- Timeline elements ---- */
+/*-- Start Timeline Elements CSS --*/
 li {
-	position: relative;
-	display: inline-block;
-	float: left;
-	width: 100px;
-	font: bold 14px arial;
-  	height: 50px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 150px;
+  font: bold 14px arial;
+  height: 50px;
 }
 li .diplome {
   position: absolute;
-  top: -55px;
-  left: 32%;
+  top: -47px;
+  left: 7%;
   color: #000000;
 }
 li .point {
-	content: "";
-	top: -5px;
-	left: 40%;
-	display: block;
-	width: 6px;
-	height: 6px;
-	border: 4px solid #31708F;
-	border-radius: 10px;
-	background: #fff;
+  content: "";
+  top: -4px;
+  left: 12%;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border: 4px solid #31708F;
+  border-radius: 10px;
+  background: #fff;
   position: absolute;
 }
 li .description {
   display: none;
   background-color: #f4f4f4;
-  padding: 10px;
+  padding: 5px;
   margin-top: 20px;
   position: relative;
   font-weight: normal;
@@ -228,15 +199,15 @@ li .description {
   left: 43%;
 }
 
-/* ---- Hover effects ---- */
-/*li:hover {
-	cursor: pointer;
+/*-- Start Hover Effects CSS --*/
+li:hover {
+  cursor: pointer;
   color: #48A4D2;
 }
 li:hover .description {
   display: block;
-}*/
-/* ---- End Timeline CSS ---- */
+}
+/*---- End Educ+Expe CSS ----*/
 
 .wrapper {
   width: 100px; /* Set the size of the progress bar */
@@ -270,8 +241,8 @@ div[data-anim~=base] {
   position: relative;
   width: 230%;
   height: 30px;
-  background: #eeeeee;
-  /*background: #cdf1c9b0;*/
+  /*background: #eeeeee;*/
+  background: #cdf1c9b0;
   margin-bottom: 10px;
   border-radius: 5px;
   box-shadow: 0 1px 2px #222;
